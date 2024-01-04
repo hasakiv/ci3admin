@@ -21,8 +21,8 @@ $host_prod = 'anhsex2k.xyz';
 // WARNING: Do not modify the lines below
 $domain = (in_array($_SERVER['HTTP_HOST'], $config['host_dev'], TRUE)) ? $_SERVER['HTTP_HOST'] . '/' . $host_dev : $host_prod;
 
-$config['base_url'] = ( ! empty($_SERVER['HTTPS'])) ? 'https://' . $domain : 'http://' . $domain;
-
+//$config['base_url'] = ( ! empty($_SERVER['HTTPS'])) ? 'https://' . $domain : 'http://' . $domain;
+$config['base_url'] = 'http://localhost/ci3admin/';
 /*
 |--------------------------------------------------------------------------
 | Index File
