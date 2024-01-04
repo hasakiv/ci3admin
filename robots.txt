@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /page/*
+Disallow: /page/
+Sitemap: http://anhsex2k.xyz/sitemap/sitemap.xml
